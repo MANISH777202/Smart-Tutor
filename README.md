@@ -195,4 +195,4 @@ https://unsplash.com/
 https://fontawesome.com/icons
 https://www.freepik.com/free-photos-vectors/people
 
-- other referenes referred inside code
+- other references referred inside code
