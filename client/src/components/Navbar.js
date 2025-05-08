@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../assets/styles/Navbar.css";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import { useAuth } from "../utils/auth";
-import bulb2 from "../assets/images/bulb2.png";
+import smarttutor from "../assets/images/smarttutor.jpg"; // Corrected path
 
 //Yian
 function Navbar() {
@@ -13,7 +13,7 @@ function Navbar() {
   const [navClassName, setNavClassName] = useState(
     "navbar navbar-expand-md fixed-top navHome"
   );
-
+  console.log("🔥 Navbar.js live – title is: SmartTutor");
   /**
    * Yian Chen
    * This function changes navbar on scroll
@@ -80,12 +80,12 @@ function Navbar() {
       <nav id="mainNavbar" className={navClassName} role="navigation">
         <div className="container-xl navContainer">
           <span className="logoSpan">
-            <img src={bulb2} className="logo" alt="tutor app logo" />
+            <img src={smarttutor} className="logo" alt="tutor app logo" />
           </span>
 
           <div className="navbar-brand">
             <NavLink className="navbrand-link" to="/">
-              Tutor Match
+              SmartTutor
             </NavLink>
           </div>
 

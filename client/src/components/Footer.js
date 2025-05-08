@@ -9,7 +9,7 @@ function Footer() {
   const year = new Date().getFullYear();
   return (
     <span className="footer">
-      <footer id="footer">© Tutor App, Inc. {year} All Rights Reserved</footer>
+      <footer id="footer">© SmartTutor, Inc. {year} All Rights Reserved</footer>
     </span>
   );
 }
